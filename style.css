@@ -29,5 +29,9 @@
     font-size: 25px;
    width:75%;
   }	
+		div#large {
+    font-size: 50px;
+   width:25%;
+  }
 		
 }	
