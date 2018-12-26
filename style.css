@@ -4,10 +4,24 @@
     background-color: blue;
   
 }
+	#wrapper {
+width: 90%;
+}
 	div#large {
     font-size: 50px;
-   display:block;
+   width: 30%;
+		float: left;
   }
+		div#small {
+    font-size: 10px;
+width: 30%;
+			float: left;
+  }
+	div#medium {
+    font-size: 25px;
+   width:30%;
+		float: left;
+  }	
 
 }
 @media screen and (max-width: 300px) {
@@ -24,6 +38,9 @@
   body {
     background-color: green;
 	  display:block;
+}
+			#wrapper {
+width: 100%;
 }
 		div#medium {
     font-size: 25px;
