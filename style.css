@@ -8,14 +8,7 @@
     font-size: 50px;
    display:block;
   }
-	div#small {
-    display:none;
-    
-  }
-	div#medium {
-    display:none;
-    
-  }
+
 }
 @media screen and (max-width: 300px) {
   body {
@@ -23,27 +16,21 @@
   }
 	div#small {
     font-size: 10px;
-    display:block;
+
   }
-		div#large {
-    display:none;
-    
-  }
-	div#medium {
-    display:none;
-    
-  }
+	
 	}
 	@media screen and (min-width : 300px) and (max-width : 768px){
   body {
     background-color: green;
+	  display:block;
 }
 		div#medium {
     font-size: 25px;
-   display:block;
+   width:75%;
   }	div#large {
     display:none;
-    
+    width:25%;
   }
 	div#small{
     display:none;
