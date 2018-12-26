@@ -45,12 +45,12 @@ width: 100%;
 }
 		div#medium {
     font-size: 25px;
-   width:750px;
+   width:500px;
 			float: left;
   }	
 		div#large {
     font-size: 50px;
-   width:250px;
+   width:150px;
 			float: left;
   }
 		
