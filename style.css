@@ -28,13 +28,6 @@
 		div#medium {
     font-size: 25px;
    width:75%;
-  }	div#large {
-    display:none;
-    width:25%;
-  }
-	div#small{
-    display:none;
-    
-  }
+  }	
 		
 }	
